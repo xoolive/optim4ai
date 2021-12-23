@@ -20,4 +20,4 @@ Notebook sessions can be run on:
   source activate ~x.olive/students
   ```
 
-- [Google Colab](https://colab.research.google.com/github/xoolive/optim4ai/) is a good fallback option, but solutions to exercices must be checked separately from the [Github folder](https://github.com/xoolive/optim4ai/2_gradient/solutions/).
+- [Google Colab](https://colab.research.google.com/github/xoolive/optim4ai/) is a good fallback option, but solutions to exercices must be checked separately from the [Github folder](https://github.com/xoolive/optim4ai/tree/master/2_gradient/solutions).

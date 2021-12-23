@@ -6,6 +6,5 @@ logo: images/logo.png
 theme: jekyll-theme-minimal
 repository: xoolive/optim4ai
 exclude:
-  - notebooks
   - vendor
   - introduction

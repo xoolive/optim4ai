@@ -1,5 +1,7 @@
 # Optimisation for Machine Learning
 
+[« Previous](../2_gradient) \| [Home ↑](../) \| [Next »](../4_linear)
+
 |     | Topics                                         |
 | --- | ---------------------------------------------- |
 | 3.1 | Introduction to tensors                        |

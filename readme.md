@@ -1,7 +1,5 @@
 # Optimisation for AI
 
-[repository](https://github.com/xoolive/optim4ai/) \| [website](https://www.xoolive.org/optim4ai/)
-
 This is a four-day course about **optimisation topics for artificial intelligence**. We focus here on gradient descent methods, optimisation in machine learning, linear and mixed integer linear programming, constraint programming and stochastic methods.
 
 Classes consist of simple text on this website and of interactive Jupyter notebooks designed to illustrate studied concepts.

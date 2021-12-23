@@ -1,0 +1,11 @@
+domain: www.xoolive.org # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://www.xoolive.org # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /optim4ai # place folder name if the site is served in a subfolder
+
+logo: images/logo.png
+theme: jekyll-theme-minimal
+repository: xoolive/optim4ai
+exclude:
+  - notebooks
+  - vendor
+  - introduction

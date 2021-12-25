@@ -2,11 +2,11 @@
 
 [« Previous](../1_introduction) \| [Home ↑](../) \| [Next »](../3_pytorch)
 
-|     | Topics                                      |
-| --- | ------------------------------------------- |
-| 2.1 | [Example problems, modelling](problems)     |
-| 2.2 | A walk through gradient methods (notebook)  |
-| 2.3 | Solve the city placement problem (notebook) |
+|     | Topics                                                      |
+| --- | ----------------------------------------------------------- |
+| 2.1 | [Example problems, modelling](problems)                     |
+| 2.2 | A walk through gradient methods (notebook)                  |
+| 2.3 | [Solve the city placement problem](city_problem) (notebook) |
 
 Notebook sessions can be run on:
 
@@ -20,4 +20,4 @@ Notebook sessions can be run on:
   source activate ~x.olive/students
   ```
 
-- [Google Colab](https://colab.research.google.com/github/xoolive/optim4ai/) is a good fallback option, but solutions to exercices must be checked separately from the [Github folder](https://github.com/xoolive/optim4ai/tree/master/2_gradient/solutions).
+- [Google Colab](https://colab.research.google.com/github/xoolive/optim4ai/) is a good fallback option, but data files must be uploaded, and solutions to exercices must be checked separately from the [Github folder](https://github.com/xoolive/optim4ai/tree/master/2_gradient/solutions).

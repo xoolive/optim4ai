@@ -2,6 +2,10 @@
 
 [« Previous](../1_introduction) \| [Home ↑](../) \| [Next »](../3_pytorch)
 
+In this section, we will go through a particular class of problems where functions are differentiable.
+
+This topic is often referred to as **Non-Linear Programming**, in contrast with [Linear Programming](../4_linear/) which we will study in a further section.
+
 |     | Topics                                                      |
 | --- | ----------------------------------------------------------- |
 | 2.1 | [Example problems, modelling](problems)                     |

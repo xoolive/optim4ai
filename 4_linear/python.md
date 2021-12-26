@@ -12,7 +12,7 @@ We implemented below the steel manufacturing problem with the `linprog` function
 
 This process of constructing such large matrices is error-prone, and in practice, we use dedicated libraries:
 
-- the [PuLP library](https://coin-or.github.io/pulp/), with the default open-source solver CBC. This solver falls behind its commercial counterparts but is sufficient for demonstration purposes within this course. It is possible to run a PuLP model with both of the server belows (without catchy customisations);
+- the [PuLP library](https://coin-or.github.io/pulp/), with the default open-source solver CBC. This solver falls behind its commercial counterparts but is sufficient for demonstration purposes within this course. It is possible to run a PuLP model with both solvers below (without catchy customisations);
 
 - the [IBM Decision Optimization CPLEX Modeling `docplex`](https://ibmdecisionoptimization.github.io/docplex-doc/) for Python. Be careful as it may fall behind your version of Python. You are entitled to an academic license for education purposes if you register online. **Commercial use is prohibited**.
 

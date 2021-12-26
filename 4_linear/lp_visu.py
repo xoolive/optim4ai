@@ -2,6 +2,8 @@
 programs with two variables.
 """
 
+import base64
+
 import matplotlib.pyplot as plt
 import numpy as np
 from IPython.core.pylabtools import print_figure
@@ -187,6 +189,8 @@ class LPVisu:
             for (x1, x2), b in zip(self.A, self.b)
         )
 
+        png = print_figure(self.fig)
+
         return f"""<b><big>{self.__class__.__name__}()</big></b>
         <p>
         $\\max z = {self.c[0]}\\,{self.variables[0]} + 
@@ -195,7 +199,7 @@ class LPVisu:
         <ul>{constraints}</ul>
         </p>
 
-        <img src="data:image/png;base64,{print_figure(self.fig, base64=True)}"
+        <img src="data:image/png;base64,{base64.encodebytes(png).decode()}"
              alt="Plot" />
         """
 

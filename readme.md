@@ -18,8 +18,17 @@ The evaluation is based on:
 | 2   | [Gradient descent methods](2_gradient)             |
 | 3   | [Optimisation for machine learning](3_pytorch)     |
 | 4   | [Linear programming](4_linear)                     |
-| 5   | [A quick introduction to complexity](5_complexity) |
-| 6   | [Mixed integer linear programming](6_milp)         |
+| 5   | [Mixed integer linear programming](5_milp)         |
+| 6   | [A quick introduction to complexity](6_complexity) |
 | 7   | [Constraint programming](7_constraints)            |
 | 8   | [Stochastic methods](8_stochastic)                 |
 | 9   | [Further reading](9_further)                       |
+
+## Credits
+
+This class is based on materials created by or with the help of:
+
+- Christophe Garion
+- Alain Haït
+- Cédric Pralet
+- Emmanuel Rachelson

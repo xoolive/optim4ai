@@ -23,3 +23,5 @@ This process of constructing such large matrices is error-prone, and in practice
 You will find in the <code>code/</code> folder an implementation of the steel manufacturing problem with the three libraries. Implement the pasta production problem with the library of your choice.
 
 </div>
+
+[« Previous](.) \| [Up ↑](.) \| [Next »](../5_milp)

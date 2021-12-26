@@ -13,3 +13,17 @@ Many practical cases, however, show features that linear constraints with contin
 | 5.1 | Linear relaxation of a MILP problem (notebook)            |
 | 5.2 | Branch & Bound (notebook)                                 |
 | 5.3 | [Modelling and solving MILP problems with Python](python) |
+
+Notebook sessions can be run on:
+
+- your own computer: there are no specific requirements besides the `numpy`, `matplotlib` and `scipy` libraries.
+
+- the computer in the classroom. Activate the environment before running Jupyter lab:
+
+  ```bash
+  # The following commands only work in the classroom
+  module load python/3.7
+  source activate ~x.olive/students
+  ```
+
+- [Google Colab](https://colab.research.google.com/github/xoolive/optim4ai/) is a good fallback option, but data files must be uploaded, and solutions to exercices must be checked separately from the [Github folder](https://github.com/xoolive/optim4ai/tree/master/2_gradient/solutions).

@@ -10,7 +10,6 @@
 | 4.2 | Graphical resolution (notebook)            |
 | 4.3 | The simplex algorithm (notebook)           |
 | 4.4 | [Solving LP problems with Python](python)  |
-| 4.5 | [The duality theorem](duality)             |
 
 Notebook sessions can be run on:
 

@@ -8,7 +8,7 @@ This topic is often referred to as **Non-Linear Programming**, in contrast with 
 
 |     | Topics                                                      |
 | --- | ----------------------------------------------------------- |
-| 2.1 | [Example problems, modelling](problems)                     |
+| 2.1 | [Example problems and modelling](problems)                  |
 | 2.2 | A walk through gradient methods (notebook)                  |
 | 2.3 | [Solve the city placement problem](city_problem) (notebook) |
 

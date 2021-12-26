@@ -1,6 +1,6 @@
 # Modelling optimisation problems
 
-[« Previous](.) \| [Home ↑](..) \| [Next »](.)
+[« Previous](.) \| [Up ↑](.) \| [Next »](.)
 
 <style>
     img {
@@ -144,4 +144,4 @@ Does the map reconstruction problem have constraints?
     <p>Eventually, introducing those constraints can prove useful.</p>
 </details>
 
-[« Previous](.) \| [Home ↑](..) \| [Next »](.)
+[« Previous](.) \| [Up ↑](.) \| [Next »](.)

@@ -1,6 +1,6 @@
 # Solve the city placement problem
 
-[« Previous](.) \| [Home ↑](..) \| [Next »](../3_pytorch/)
+[« Previous](.) \| [Up ↑](.) \| [Next »](../3_pytorch/)
 
 Let's write the map reconstruction problem in a form that can be fed to an optimization solver. For this we will use the [`scipy.optimize`](https://docs.scipy.org/doc/scipy/reference/optimize.html#module-scipy.optimize) optimizers.
 
@@ -232,4 +232,4 @@ If we come back to the Mercator projection, it is actually fun to see how the op
 - Lambert conformal conical projection:  
   ![LCC projection](../images/tracks_lcc.png)
 
-[« Previous](.) \| [Home ↑](..) \| [Next »](../3_pytorch/)
+[« Previous](.) \| [Up ↑](.) \| [Next »](../3_pytorch/)

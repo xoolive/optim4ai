@@ -27,3 +27,5 @@ Notebook sessions can be run on:
   ```
 
 - [Google Colab](https://colab.research.google.com/github/xoolive/optim4ai/) is a good fallback option, but data files must be uploaded, and solutions to exercices must be checked separately from the [Github folder](https://github.com/xoolive/optim4ai/tree/master/2_gradient/solutions).
+
+[« Previous](../4_linear) \| [Home ↑](../) \| [Next »](../6_complexity)

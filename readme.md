@@ -21,7 +21,7 @@ The evaluation is based on:
 | 5   | [Mixed integer linear programming](5_milp)         |
 | 6   | [A quick introduction to complexity](6_complexity) |
 | 7   | [Constraint programming](7_constraints)            |
-| 8   | [Stochastic methods](8_stochastic)                 |
+| 8   | [Evolutionary methods](8_evolution)                |
 | 9   | [Further reading](9_further)                       |
 
 ## Credits

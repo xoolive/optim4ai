@@ -1,6 +1,6 @@
 # Further reading
 
-[« Previous](../8_stochastic) \| [Home ↑](../)
+[« Previous](../8_evolution) \| [Home ↑](../)
 
 We are constrained by time in this course, and there is a lot more to learn about in terms of optimisation methods. This page lists many references to important keywords in this field.
 
@@ -33,4 +33,8 @@ We are constrained by time in this course, and there is a lot more to learn abou
 - Learn about local search and it fits CP for large-neighbourhood search;
 - Learn about SAT and SMT theories
 
-## Stochastic methods
+## Evolutionary methods
+
+- Learn about more metaheuristics such as Particle Swarm Optimisation, Ant Colony Optimisation, and more;
+- Learn about genetic programming, and see how we can make programs, graphs and networks evolve;
+- Learn how evolutionary methods can help optimise the training of neural networks hyperparameters

@@ -1,6 +1,6 @@
 # Constraint programming
 
-[« Previous](../6_complexity) \| [Home ↑](../) \| [Next »](../8_stochastic)
+[« Previous](../6_complexity) \| [Home ↑](../) \| [Next »](../8_evolution)
 
 **Constraint Programming** (CP) is a powerful framework for problem satisfaction and optimisation. As with similar formalisms like _Linear Programming_, the key skill consists in expressing a problem in such a way that efficient algorithms may be implemented.
 

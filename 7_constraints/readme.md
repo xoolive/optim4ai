@@ -2,11 +2,13 @@
 
 [« Previous](../6_complexity) \| [Home ↑](../) \| [Next »](../8_stochastic)
 
-|     | Topics                                                 |
-| --- | ------------------------------------------------------ |
-| 7.1 | [Introduction to constraint programming](introduction) |
-| 7.2 | A Python API for constraint programming (notebook)     |
-| 7.3 | **Assessment**: project                                |
+**Constraint Programming** (CP) is a powerful framework for problem satisfaction and optimisation. As with similar formalisms like _Linear Programming_, the key skill consists in expressing a problem in such a way that efficient algorithms may be implemented.
+
+|     | Topics                                             |
+| --- | -------------------------------------------------- |
+| 7.1 | [Example problems and modelling](problems)         |
+| 7.2 | [Introduction to constraint programming](theory)   |
+| 7.3 | A Python API for constraint programming (notebook) |
 
 Notebook sessions can be run on:
 
@@ -25,13 +27,5 @@ Notebook sessions can be run on:
   - Linux, Mac OS (>= 10.15): just install the `facile` library;
   - Windows: you must run [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and follow the Linux instructions.
     If this sounds all Greek to you, you must fall back to another option.
-
-## Projects
-
-Projects should be run as Python scripts from Visual Studio Code.
-
-Open the workspace file (with the WSL connector for Windows users), then access the project folder.
-
-Details about projects are presented on this [page](/constraints/problems).
 
 [« Previous](../6_complexity) \| [Home ↑](../) \| [Next »](../8_stochastic)

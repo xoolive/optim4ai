@@ -4,11 +4,11 @@
 
 **Constraint Programming** (CP) is a powerful framework for problem satisfaction and optimisation. As with similar formalisms like _Linear Programming_, the key skill consists in expressing a problem in such a way that efficient algorithms may be implemented.
 
-|     | Topics                                             |
-| --- | -------------------------------------------------- |
-| 7.1 | [Example problems and modelling](problems)         |
-| 7.2 | [Introduction to constraint programming](theory)   |
-| 7.3 | A Python API for constraint programming (notebook) |
+|     | Topics                                           |
+| --- | ------------------------------------------------ |
+| 7.1 | [Example problems and modelling](problems)       |
+| 7.2 | [Introduction to constraint programming](theory) |
+| 7.3 | Constraint programming in Python (notebook)      |
 
 Notebook sessions can be run on:
 

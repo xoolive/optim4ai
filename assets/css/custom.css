@@ -22,3 +22,8 @@ summary {
 strong {
   color: #727272;
 }
+
+.alert {
+  border-left: 5px solid;
+  border-right: 5px solid;
+}

@@ -28,4 +28,4 @@ Notebook sessions can be run on:
   - Windows: you must run [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10) and follow the Linux instructions.
     If this sounds all Greek to you, you must fall back to another option.
 
-[« Previous](../6_complexity) \| [Home ↑](../) \| [Next »](../8_stochastic)
+[« Previous](../6_complexity) \| [Home ↑](../) \| [Next »](../8_evolution)

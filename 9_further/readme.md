@@ -27,6 +27,9 @@ We are constrained by time in this course, and there is a lot more to learn abou
 
 ## A quick introduction to complexity
 
+- Learn about polynomial reductions;
+- Learn about complexity categories above NP
+
 ## Constraint programming
 
 - Learn about more propagation mechanisms for global constraints;

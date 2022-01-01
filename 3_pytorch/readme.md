@@ -10,7 +10,7 @@ We will focus here on PyTorch and look into how the library addresses optimisati
 | --- | -------------------------------------------------- |
 | 3.1 | [Introduction to tensors in PyTorch](introduction) |
 | 3.2 | [Automatic differentation](autograd)               |
-| 3.3 | [Optimisers in PyTorch](optimise)                  |
+| 3.3 | [Optimisers in PyTorch](optim)                     |
 | 3.4 | [Exercice: Linear regression](exercice)            |
 
 The notebook producing these pages is available on the GitHub page, but focus on reading here: blindly executing cells may only distract you from the main content.

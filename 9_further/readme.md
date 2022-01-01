@@ -12,7 +12,7 @@ We are constrained by time in this course, and there is a lot more to learn abou
 
 ## Optimisation for Machine Learning
 
-- Learn about common optimisation methods for ML, e.g. ADAM
+- Learn about common optimisation methods for ML
 
 ## Linear programming
 

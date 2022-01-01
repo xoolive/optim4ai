@@ -6,5 +6,5 @@ logo: images/logo.png
 theme: jekyll-theme-minimal
 repository: xoolive/optim4ai
 exclude:
+  - admin
   - vendor
-  - introduction

@@ -73,7 +73,7 @@ Let's put this all in a function as we are going to reinitialise it several time
 ```python
 def init_t0():
     t0 = torch.randn(
-        (n, 2), dtype=float,requires_grad=True, device=0
+        (n, 2), dtype=float, requires_grad=True, device=0
     )
 
     with torch.no_grad():
@@ -112,7 +112,7 @@ def criterion(*args):
 
 ```python
 def criterion(x: torch.Tensor):
-    delta = torch.cdist(t0, t0) ** 2 - distances ** 2
+    delta = torch.cdist(x, x) ** 2 - distances ** 2
     return (delta ** 2).sum() / 2
 
 loss = criterion(t0)

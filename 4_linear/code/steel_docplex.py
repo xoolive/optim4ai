@@ -52,7 +52,7 @@ if m.solve():  # check the problem is really solved
     print()
     print("Solution to the problem:")
     print(dict((var.name, var.solution_value) for var in x_i))
-    print(f"Objective function: {m.objective_value:.2f} tons")
+    print(f"Objective function: {m.objective_value:.2f} euros")
 
 else:
     print(m.get_solve_status())

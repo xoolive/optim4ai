@@ -61,4 +61,4 @@ assert pulp.LpStatus[solution] == "Optimal"
 print("Solution to the problem:")
 print(dict((f"x_{i}", pulp.value(x)) for i, x in enumerate(x_i)))
 
-print(f"Objective function: {pulp.value(prob.objective):.2f} tons")
+print(f"Objective function: {pulp.value(prob.objective):.2f} euros")

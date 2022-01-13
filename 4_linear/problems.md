@@ -82,7 +82,7 @@ $$
 
 <p>The <b>objective</b> is to minimise the total cost:</p>
 
-$$ \min 0.6\,i_1 + 0.8\,e_1 + 0.8\,i_2 + 0.9\,e_2 + 0.3\,i_3 + 0.6\,e_3 $$
+$$ \min 0.6\,i_1 + 0.8\,e_1 + 0.8\,i_2 + 0.9\,e_2 + 0.3\,i_3 + 0.4\,e_3 $$
 
 </div>
 </details>

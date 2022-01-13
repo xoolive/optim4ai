@@ -245,12 +245,9 @@ class LPVisu:
         """
 
         if xk is not None:
-            if self.pivot_patch is None:
-                self.pivot_patch = plt.Circle(
-                    (xk[0], xk[1]), self.pivot_scale * 0.1, fc="r"
-                )
-            else:
-                self.pivot_patch.center = (xk[0], xk[1])
+            self.pivot_patch = plt.Circle(
+                (xk[0], xk[1]), self.pivot_scale * 0.1, fc="r"
+            )
             self.ax.add_patch(self.pivot_patch)
         else:
             if self.pivot_patch is not None:

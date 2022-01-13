@@ -62,4 +62,4 @@ assert m.status == grb.GRB.OPTIMAL
 print()
 print("Solution to the problem:")
 print(dict((var.VarName, var.X) for var in x_i.values()))
-print(f"Objective function: {m.objval:.2f} tons")
+print(f"Objective function: {m.objval:.2f} euros")

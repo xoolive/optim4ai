@@ -56,4 +56,4 @@ print()
 print("Solution to the problem:")
 print(dict((f"x_{i}", x) for i, x in enumerate(res.x)))
 
-print(f"Objective function: {res.fun:.2f} tons")
+print(f"Objective function: {res.fun:.2f} euros")

@@ -1,28 +1,31 @@
 {
   "folders": [{ "path": "." }],
   "settings": {
-    "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.mypyEnabled": true,
-    "python.linting.enabled": true,
-    "python.linting.flake8Args": [
-      "--extend-ignore=E203",
-      "--max-line-length=80"
-    ],
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.analysis.inlayHints.variableTypes": true,
 
     "editor.formatOnSave": true,
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": ["-l80"],
-
-    "python.testing.unittestEnabled": false,
-    "python.testing.nosetestsEnabled": false,
-    "python.testing.pytestEnabled": false,
+    "editor.rulers": [80],
+    "mypy-type-checker.importStrategy": "fromEnvironment",
+    "ruff.importStrategy": "fromEnvironment",
 
     "[python]": {
-      "files.insertFinalNewline": true
+      "files.insertFinalNewline": true,
+      "editor.defaultFormatter": "charliermarsh.ruff",
+      "editor.codeActionsOnSave": {
+        "source.organizeImports.ruff": true,
+        "source.fixAll.ruff": false
+      }
     },
     "[markdown]": {
       "editor.wordWrap": "wordWrapColumn"
     }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python",
+      "ms-python.mypy-type-checker",
+      "charliermarsh.ruff"
+    ]
   }
 }

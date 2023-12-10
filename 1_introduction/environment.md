@@ -13,11 +13,7 @@ Thou shall read specific instructions for Windows.
 
 You will need to set up **by yourself** the following pieces:
 
-- [Visual Studio Code](https://code.visualstudio.com/), then install the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python):
-
-  ```sh
-  code --install-extension ms-python.python ms-toolsai.jupyter
-  ```
+- [Visual Studio Code](https://code.visualstudio.com/), then open the `optim4ai.code-workspace` workspace.
 
   **Windows users** should install Visual Studio Code in Windows (not WSL) then activate the Remote WSL extension:
 

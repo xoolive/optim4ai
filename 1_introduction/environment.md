@@ -3,36 +3,41 @@
 [« Previous](.) \| [Up ↑](.) \| [Next »](./introduction)
 
 <div class="alert alert-danger">
-
-First thing first: <b>Windows users</b><p>
-should first activate WSL using the official <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">instructions</a> (<a href="https://docs.microsoft.com/fr-fr/windows/wsl/install-win10">French version</a>). Please install the most recent Ubuntu version unless you have another version ready.
-
-</p>
-Thou shall read specific instructions for Windows.
+Please follow <b>every single step</b> below.<br/> If you miss a step, things will only work partially.
 </div>
 
 You will need to set up **by yourself** the following pieces:
 
-- [Visual Studio Code](https://code.visualstudio.com/), then open the `optim4ai.code-workspace` workspace.
+- Download and install [Visual Studio Code](https://code.visualstudio.com/).  
+  If you already have Visual Studio Code, install the latest version.
 
-  **Windows users** should install Visual Studio Code in Windows (not WSL) then activate the Remote WSL extension:
+- the `pixi` tool: you will get installation instructions [here](https://pixi.sh/latest/).  
+  For Windows, follow the "PowerShell" instructions (look for a PowerShell on your system, it's there I promise.)  
+  For those who already know a little, `pixi` is a minimal tool providing environments similar to Anaconda, but we will not use Anaconda;
 
-  ```sh
-  code --install-extension ms-vscode-remote.remote-wsl
-  ```
+<div class="alert alert-warning">
+<b>Warning</b> If you already have anaconda, and see when you open the terminal your line starting with <code>(base)</code>:<br/> <code>conda config --set auto_activate_base false</code> 
+</div>
 
-- an Anaconda distribution, from the [following link](https://www.anaconda.com/products/individual). In case the question arises, it is very likely that the best suited version for your needs is the 64 bits one. Anaconda is more than a Python distribution: it also provides additional dependencies you may need;
+- understand that you will need a terminal for cloning learning materials, installing dependencies and more.
 
-  **Windows users** should install the Anaconda distribution within their Ubuntu subsystem.
+  - MacOS and Linux users should be familiar with their usual terminal application;
+  - MacOS users will probably need to install common tools and dependencies with [brew](https://brew.sh/);
+  - Windows users should find out how to run their PowerShell.
 
-- the `git` (or `git.exe` for Windows users) program, for version control. Using Git falls out of scope of this seminar, but you are **strongly encouraged** to become proficient with it. You may find resources on [GitHub Learning Lab](https://lab.github.com/), e.g. the following course for [first-timers](https://lab.github.com/lmachens/git-and-github-first-timers).
+  You are expected to be familiar with the most basic shell commands to list a directory, create and move files, change permissions, etc.
+
+- the `git` (or `git.exe` for Windows users) program, for version control.  
+  Using Git falls out of scope of this seminar, but you are **strongly encouraged** to become proficient with it.  
+  You may find resources on [GitHub Learning Lab](https://lab.github.com/), e.g. the following course for [first-timers](https://lab.github.com/lmachens/git-and-github-first-timers).
 
   Try running `git --version`. If necessary, install `git`:
 
-  | Operating system | Installation command   |
-  | ---------------- | ---------------------- |
-  | MacOS            | `brew install git`     |
-  | Linux (Ubuntu)   | `sudo apt install git` |
+  | Operating system  | Installation command      |
+  | ----------------- | ------------------------- |
+  | Linux (Ubuntu)    | `sudo apt install git`    |
+  | MacOS (preferred) | `brew install git`        |
+  | Windows or MacOS  | `pixi global install git` |
 
 - clone the resources for the course:
 

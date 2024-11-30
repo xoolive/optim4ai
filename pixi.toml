@@ -1,14 +1,15 @@
 [project]
 name = "optim4ai"
 version = "0.1.0"
-description = "Add a short description here"
+description = "Optimisation for Artificial Intelligence"
 authors = ["Xavier Olive <git@xoolive.org>"]
-channels = ["conda-forge"]
-platforms = ["osx-arm64"]
+channels = ["conda-forge", "pytorch"]
+platforms = ["win-64", "linux-64", "osx-arm64"]
 
 [tasks]
 
 [dependencies]
+python = ">= 3.12"
 numpy = ">=2.1.3,<2.2"
 scipy = ">=1.14.1,<1.15"
 matplotlib = ">=3.9.2,<3.10"
@@ -21,3 +22,4 @@ ruff = ">=0.7.4,<0.8"
 
 [pypi-dependencies]
 gurobipy = "*"
+# facile = ">=1.6"
